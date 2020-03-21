@@ -32,15 +32,14 @@ public class Senhas {
 		
 		senhaNova += pilha.esvazia();
 		
-		senhaNova = senhaNova.replace( 'a' , '@' );
-		senhaNova = senhaNova.replace( 's' , '$' );
-		senhaNova = senhaNova.replace( 'r' , '*' ); 
-		senhaNova = senhaNova.replace( 'e' , '&' );
-		senhaNova = senhaNova.replace( 'i' , '!' );
-		senhaNova = senhaNova.replace( 'o' , '(' ); 
-		senhaNova = senhaNova.replace( 'u' , '+' );
-		
 		senhaNova = senhaNova.toUpperCase();
+		senhaNova = senhaNova.replace( 'A' , '@' );
+		senhaNova = senhaNova.replace( 'S' , '$' );
+		senhaNova = senhaNova.replace( 'R' , '*' ); 
+		senhaNova = senhaNova.replace( 'E' , '&' );
+		senhaNova = senhaNova.replace( 'I' , '!' );
+		senhaNova = senhaNova.replace( 'O' , '(' ); 
+		senhaNova = senhaNova.replace( 'U' , '+' );
 		//System.out.println(senhaNova);
 		
 		showMessageDialog(null, senhaNova);
