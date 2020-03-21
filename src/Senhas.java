@@ -9,7 +9,7 @@ public class Senhas {
 
 		PilhaChar pilha = new PilhaChar();
 		pilha.init();
-		String senha = "minha#1234_4321";
+		String senha = "";
 		String senhaNova = "";
 		String aux;
 		
